@@ -1,46 +1,101 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="PPAPをつくれ"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「右左どっちでPPAPをつくれ」[l][r]
 
-メロスは激怒した。[l][r]
+あなたはペンを２本持っています。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+これから右左どっちでフルーツを選び、[l][r]
 
-(中略)[l][r]
+PPAP（ペンパイナッポーアッポーペン）を完成させてください。[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+それでは行きます[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+右左どっち？？？[l][r]
+
+
+[link target=*tag_migi] →右 [endlink][r]
+[link target=*tag_hidari] →左 [endlink][r]
 [s]
 
-*tag_sleep
+*tag_migi
 
 [cm]
 
 [bg storage=sleep.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+リンゴ[l][r]
+残念[r]
 
-【 BAD END 】[l][cm]
+一応もう一回[l][r]
+右左どっち？？？[r]
 
+[link target=*tag_migi2] →右 [endlink][r]
+[link target=*tag_hidari2] →左 [endlink][r]
+[s]
+
+*tag_migi2
+
+[cm]
+
+リンゴ[l][r]
+
+結果...[l][r]
+PAAP（ペンアップルアップルペン）　成功率50％[l][r]
+[cm]
 [jump target=*start]
 
-*tag_run
+*tag_hidari2
+
+[cm]
+パイナップル[l][r]
+
+結果...[l][r]
+PAPP（ペンアップルパイナップルペン）　成功率0％[l][r]
+[cm]
+[jump target=*start]
+
+
+
+*tag_hidari
+
 
 [bg storage=run.jpg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+パイナップル[l][r]
+いい調子[r]
+次が本番[l][r]
+右左どっち？？？[r]
 
-【 GOOD END 】[l][cm]
+[link target=*tag_migi3] →右 [endlink][r]
+[link target=*tag_hidari3] →左 [endlink][r]
+[s]
 
+
+*tag_migi3
+[cm]
+リンゴ[l][r]
+
+結果...[l][r]
+PPAP（ペンパイナッポーアッポーペン）　成功率100％[l][r]
+おめでとう！君が真のピ〇太郎だ！！
+[cm]
 [jump target=*start]
+
+*tag_hidari3
+[cm]
+パイナップル[l][r]
+
+結果...[l][r]
+PPPP（ペンパイナップルパイナップルペン）　成功率50[l][r]
+
+
+[cm]
+[jump target=*start]
+
+
